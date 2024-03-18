@@ -58,6 +58,10 @@ body {
   padding: 0 30px 30px;
 }
 
+.instagram-embeds {
+  margin: 30px 0;
+}
+
 .button {
   display: block;
   color: white;
