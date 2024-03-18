@@ -22,6 +22,7 @@ body {
 
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
 
 .grid-3-columns-footer {
@@ -36,12 +37,12 @@ body {
 .drla-rescue,
 .dach-relief,
 .dach-friends {
-  width: 365px;
-  height: 365px;
+  width: 100%;
 }
 
 .rescue-background-section {
   background: #f8f8f8;
+  margin: 0;
 }
 
 .card {
@@ -228,12 +229,22 @@ footer a {
     font-size: 12px;
   }
 
+  section {
+    padding: 30px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 25px;
   }
 
-  section {
+  .card {
     padding: 30px;
+  }
+
+  .drla-rescue,
+  .dach-relief,
+  .dach-friends {
+    width: 50%;
   }
 }
